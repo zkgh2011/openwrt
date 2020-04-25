@@ -64,7 +64,7 @@ define Device/alfa-network_tube-e4g
   IMAGE_SIZE := 16064k
   DEVICE_TITLE := ALFA Network Tube-E4G
   DEVICE_PACKAGES := kmod-usb2 kmod-usb-ohci uboot-envtools uqmi \
-	-iwinfo -kmod-rt2800-soc -wpad-basic
+	-iwinfo -kmod-rt2800-soc -wpad-openssl
 endef
 TARGET_DEVICES += alfa-network_tube-e4g
 
